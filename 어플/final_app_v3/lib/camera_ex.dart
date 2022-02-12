@@ -55,7 +55,7 @@ class _CameraExampleState extends State<CameraExample> {
 
   getPlaceAddress(_currentPositions_lat, _currentPositions_lng) async {
     final url =
-        'https://maps.googleapis.com/maps/api/geocode/json?latlng=${_currentPositions_lat},${_currentPositions_lng}&key=AIzaSyDXTmNX0t5ePIOE5ByPMr4p6Rz6raAt3IA';
+        'https://maps.googleapis.com/maps/api/geocode/json?latlng=${_currentPositions_lat},${_currentPositions_lng}&key=Yourkey';
     final response = await http.get(Uri.parse(url));
     // return
     String addres = jsonDecode(response.body)["results"][0]
