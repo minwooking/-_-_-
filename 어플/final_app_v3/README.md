@@ -1,16 +1,7 @@
-# tensorflow_lite
+1. Tensorflow model  텐서플로우 케라스이용 제작하였고 Tflite 변환 모듈로 변환하여 적용함
+* 라벨과 같이 넣어야 인식되었을때 키가 아닌 벨류값이 나옴
 
-A new Flutter project.
+2. google map 을 이용한 현위치 좌표 위치를 텍스트로 반환함 = > json 타입으로 받고 그중에 주소만 따로 추출함
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. mbti 는 삼항연산을 이용하여 구현함 
